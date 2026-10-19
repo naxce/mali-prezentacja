@@ -1,0 +1,27 @@
+.s-cost { --slide-bg: linear-gradient(180deg, #120d0c 0%, #0e0b0b 60%, var(--night) 100%); }
+.s11 { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr) minmax(0, 0.9fr); grid-template-rows: auto auto 1fr; grid-column-gap: clamp(16px, 2.4vw, 48px); grid-row-gap: 2.4vh; }
+.s11-head { grid-column: 1 / span 2; }
+.s11-title { color: var(--text); }
+.s11-lede { margin-top: 1vh; max-width: 50ch; color: var(--sand); }
+.s11-lede strong { color: #ff8a70; }
+.s11-stats { grid-column: 1 / span 2; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); grid-column-gap: clamp(12px, 1.6vw, 32px); }
+.s11-stats .stat { font-size: calc(var(--fs-stat) * 0.62); color: #ff8a70; }
+.s11-stats .small { margin-top: 0.8vh; color: var(--muted); line-height: 1.4; }
+.s11-grid-wrap { grid-column: 1; }
+.s11-grid { display: grid; grid-template-columns: repeat(10, 1fr); grid-gap: clamp(4px, 0.5vw, 10px); max-width: min(420px, 38vh); }
+.s11-grid i { display: block; height: 0; padding-bottom: 100%; border-radius: 50%; background: var(--ochre); }
+.s11-key { margin-top: 1vh; }
+.s11-abuse { grid-column: 2; align-self: start; padding-left: 1vw; border-left: 3px solid #ff6a4d; }
+.s11-abuse .body { font-size: clamp(13px, 0.5vw + 0.6vh, 21px); color: var(--sand); }
+.s11-heritage { grid-column: 3; grid-row: 2 / span 2; align-self: end; }
+.s11-hframe { position: relative; height: clamp(110px, 26vh, 300px); overflow: hidden; }
+.s11-hframe picture, .s11-hframe img, .s11-hframe video { width: 100%; height: 100%; object-fit: cover; }
+.s11-ruin { position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; }
+.s11-heritage figcaption { margin-top: 0.8vh; }
+.s11-photo { grid-column: 3; grid-row: 1; align-self: start; }
+.s11-photo picture, .s11-photo img { width: 100%; height: clamp(90px, 22vh, 260px); object-fit: cover; }
+@media (max-width: 900px) {
+  .s11 { grid-template-columns: 1fr; }
+  .s11-head, .s11-stats, .s11-grid-wrap, .s11-abuse, .s11-heritage, .s11-photo { grid-column: 1; grid-row: auto; }
+  .s11-stats { grid-template-columns: 1fr 1fr; grid-row-gap: 2vh; }
+}

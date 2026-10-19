@@ -1,0 +1,14 @@
+.s-end { --slide-bg: var(--night); }
+.s15-scrim { background: linear-gradient(0deg, rgba(11, 15, 23, 0.9) 0%, rgba(11, 15, 23, 0.4) 55%, rgba(11, 15, 23, 0.2) 100%); }
+.s15-sand { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 3; pointer-events: none; overflow: hidden; }
+.s15-sand i { position: absolute; border-radius: 50%; background: #e9c98a; opacity: 0; }
+.s15 { display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end; padding-bottom: calc(var(--pad-y) + 4vh); }
+.s15-title { font-size: calc(var(--fs-h1) * 0.95); color: var(--text); max-width: 12ch; }
+.s15-sign { margin-top: 2.4vh; font-size: var(--fs-h3); font-weight: 600; font-style: normal; color: var(--ochre); letter-spacing: 0.02em; }
+.s15-sign .ch { transform: skewX(-8deg); }
+.s15-gh { display: inline-flex; align-items: center; margin-top: 3.2vh; padding: 14px 22px; background: var(--sand); color: var(--night); font-weight: 750; font-size: var(--fs-body); text-decoration: none; transition: transform 0.2s cubic-bezier(.16, 1, .3, 1), background-color 0.2s; }
+.s15-gh svg { width: 1.3em; height: 1.3em; margin-right: 0.6em; }
+.s15-gh:hover { transform: translateY(-3px); background: #fff; }
+.s15-gh:active { transform: scale(0.97); }
+.s15-sun { position: absolute; left: 50%; bottom: -45vmax; width: 110vmax; height: 110vmax; margin-left: -55vmax; border-radius: 50%; background: radial-gradient(circle, rgba(255, 196, 120, 0.42) 0%, rgba(255, 150, 80, 0.16) 35%, rgba(255, 150, 80, 0) 62%); mix-blend-mode: screen; opacity: 0; }
+.lite .s15-sun { mix-blend-mode: normal; }

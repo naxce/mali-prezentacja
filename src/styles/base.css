@@ -1,0 +1,48 @@
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; height: 100%; }
+html { background: var(--night); color: var(--text); -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body {
+  font-family: var(--f-body);
+  font-stretch: 100%;
+  font-weight: 400;
+  font-size: var(--fs-body);
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-kerning: normal;
+}
+h1, h2, h3, h4, p, ul, ol, figure, blockquote { margin: 0; padding: 0; }
+ul, ol { list-style: none; }
+img, svg, video, picture { display: block; max-width: 100%; }
+button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+a { color: inherit; }
+:focus { outline: 3px solid var(--ochre); outline-offset: 3px; }
+:focus:not(:focus-visible) { outline: none; }
+::selection { background: var(--ochre); color: var(--night); }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.display {
+  font-family: var(--f-display);
+  font-stretch: 68%;
+  font-weight: 860;
+  line-height: 0.9;
+  letter-spacing: -0.005em;
+  text-transform: uppercase;
+  padding-top: 0.08em;
+}
+.h1 { font-size: var(--fs-h1); }
+.h2 { font-size: var(--fs-h2); }
+.h3 { font-size: var(--fs-h3); font-stretch: 85%; font-weight: 700; line-height: 1.12; }
+.mono { font-family: var(--f-mono); font-weight: 600; letter-spacing: 0.04em; font-variant-numeric: tabular-nums; }
+.lede { font-size: var(--fs-lede); line-height: 1.32; font-stretch: 90%; font-weight: 420; max-width: 36ch; }
+.body { font-size: var(--fs-body); line-height: 1.48; max-width: 58ch; color: var(--muted); }
+.body strong, .lede strong { color: var(--text); font-weight: 650; }
+.small { font-size: var(--fs-small); color: var(--muted); }
+.stat { font-family: var(--f-display); font-stretch: 112%; font-weight: 800; font-size: var(--fs-stat); line-height: 0.95; }
+.accent { color: var(--ochre); }
+.red { color: #ff6a4d; }
+.ans-0 { --ans: #e3a43a; --ans-ink: #0b0f17; }
+.ans-1 { --ans: #3f5fd0; --ans-ink: #fff; }
+.ans-2 { --ans: #b4461f; --ans-ink: #fff; }
+.ans-3 { --ans: #1b7a35; --ans-ink: #fff; }
+.ans-shape { display: inline-flex; flex: none; width: 1.1em; height: 1.1em; margin-right: 0.6em; }
+.ans-shape svg { width: 100%; height: 100%; fill: currentColor; }

@@ -1,0 +1,32 @@
+.s-jihad { --slide-bg: radial-gradient(90% 90% at 30% 30%, #2b2416 0%, #14110c 60%, var(--night) 100%); }
+.s5 { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); grid-column-gap: clamp(20px, 3vw, 60px); align-items: center; }
+.s5-mapbox { position: relative; }
+.s5-map { width: 100%; height: auto; max-height: 68vh; overflow: visible; }
+.s5-regions .r { fill: #2a2720; stroke: rgba(239, 227, 204, 0.22); stroke-width: 1.2; }
+.s5-azawad path { fill: #1f6b38; stroke: rgba(239, 227, 204, 0.3); stroke-width: 1.2; }
+.s5-dark path { fill: #121212; stroke: rgba(239, 227, 204, 0.35); stroke-width: 1.2; }
+.s5-dust circle { fill: #d9b778; opacity: 0; }
+.s5-outline { fill: none; stroke: var(--sand); stroke-width: 2.4; stroke-linejoin: round; }
+.s5-arrow { fill: none; stroke: #ff6a4d; stroke-width: 6; stroke-linecap: round; stroke-dasharray: 14 10; }
+.s5-city circle { fill: var(--sand); stroke: var(--night); stroke-width: 2; }
+.s5-city text { fill: var(--sand); font-family: var(--f-mono); font-size: 22px; paint-order: stroke; stroke: rgba(11, 15, 23, 0.85); stroke-width: 4px; }
+.s5-city[data-c='Konna'] circle { fill: #ff6a4d; }
+.s5-city[data-c='Konna'] text { fill: #ff8a70; }
+.s5-group { fill: #d9b778; font-family: var(--f-mono); font-size: 20px; letter-spacing: 0.08em; text-transform: uppercase; paint-order: stroke; stroke: #000; stroke-width: 4px; }
+.s5-banner { display: flex; align-items: center; margin-top: 1.4vh; max-width: 90%; }
+.s5-banner img { width: clamp(56px, 6vw, 110px); height: auto; filter: grayscale(1) contrast(0.8) brightness(0.9); opacity: 0.85; border: 1px solid var(--line-strong); }
+.s5-banner figcaption { margin-left: 12px; font-size: clamp(11px, 0.4vw + 0.45vh, 15px); color: var(--muted); line-height: 1.45; }
+.s5-title { color: var(--sand); }
+.s5-range { color: var(--ochre); font-size: var(--fs-h3); margin-top: 0.6vh; }
+.s5-list { margin-top: 3vh; display: grid; grid-row-gap: 1.6vh; }
+.s5-list li { font-size: var(--fs-body); line-height: 1.42; color: var(--sand); padding-left: 0.9em; border-left: 3px solid rgba(217, 183, 120, 0.4); }
+.s5-list b { display: block; font-family: var(--f-mono); font-weight: 500; font-size: var(--fs-small); color: #d9b778; margin-bottom: 2px; }
+.s5-photo { display: flex; align-items: center; margin-top: 2.6vh; }
+.s5-photo picture, .s5-photo img { width: clamp(90px, 11vw, 220px); height: clamp(64px, 8vw, 150px); object-fit: cover; }
+.s5-photo figcaption { margin-left: 14px; max-width: 34ch; }
+@media (max-width: 900px) {
+  .s5 { grid-template-columns: 1fr; grid-row-gap: 3vh; }
+}
+.s5-storm .sheet { opacity: 0; }
+.s5-strike { fill: none; stroke: #ff5a3c; stroke-width: 4; opacity: 0; transform-box: fill-box; transform-origin: 50% 50%; }
+.s5-haze { position: absolute; top: 0; left: 0; width: 70%; height: 100%; background: linear-gradient(90deg, rgba(217, 183, 120, 0) 0%, rgba(217, 183, 120, 0.12) 30%, rgba(225, 190, 125, 0.24) 50%, rgba(217, 183, 120, 0.12) 70%, rgba(217, 183, 120, 0) 100%); opacity: 0; }

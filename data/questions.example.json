@@ -1,0 +1,6 @@
+{
+  "questions": [
+    { "text": "Jaka jest stolica Mali?", "choices": ["Bamako", "Timbuktu", "Gao", "Niamey"], "correct": 0 },
+    { "text": "Przez który region Afryki przebiega pas Sahelu?", "choices": ["Afryka Południowa", "Róg Afryki", "Południowy skraj Sahary", "Basen Konga"], "correct": 2 }
+  ]
+}

@@ -1,0 +1,403 @@
+[
+ {
+  "key": "sahel-dusk-acacia",
+  "kind": "image",
+  "source": "commons",
+  "file": "File:Sunset in Mali.jpg",
+  "use": "slide1 background (title, Sahel at dusk)",
+  "width": 4032,
+  "height": 3024,
+  "license": "CC0",
+  "author": "Rgaudin",
+  "widths": [
+   640,
+   1280,
+   1920
+  ]
+ },
+ {
+  "key": "niger-sunset-reflection",
+  "kind": "image",
+  "source": "commons",
+  "file": "File:Coucher de soleil sur le fleuve Niger (8439407856).jpg",
+  "use": "slide15 background (end)",
+  "width": 13941,
+  "height": 9359,
+  "license": "CC BY 2.0",
+  "author": "Jeanne Menjoulet from Paris, France",
+  "widths": [
+   640,
+   1280,
+   1920
+  ]
+ },
+ {
+  "key": "bamako-martyrs-bridge",
+  "kind": "image",
+  "source": "commons",
+  "file": "File:Pont des Martyrs Bamako (cropped).jpg",
+  "use": "slide2 Bamako / Niger bridge",
+  "width": 4442,
+  "height": 2498,
+  "license": "CC BY-SA 4.0",
+  "author": "Gregor Rom",
+  "widths": [
+   640,
+   1280,
+   1920
+  ]
+ },
+ {
+  "key": "timbuktu-burnt-manuscript",
+  "kind": "image",
+  "source": "commons",
+  "file": "File:Timbuktu-139076.jpg",
+  "use": "slide5 manuscripts burned 2013",
+  "width": 3872,
+  "height": 2592,
+  "license": "CC BY-SA 3.0 igo",
+  "author": "UNESCO Bureau of Mali",
+  "widths": [
+   480,
+   960
+  ]
+ },
+ {
+  "key": "era-mopti-1972",
+  "kind": "image",
+  "source": "commons",
+  "file": "File:ASC Leiden - F. van der Kraaij Collection - 04 - 010 - Les gens se promènent près des étals du marché - Mopti, Mali - 1972.tif",
+  "use": "slide3 era photo 1972 (Mopti, drought years)",
+  "width": 6589,
+  "height": 4358,
+  "license": "CC BY-SA 4.0",
+  "author": "Fred van der Kraaij",
+  "widths": [
+   640,
+   1280,
+   1920
+  ],
+  "sepia": true
+ },
+ {
+  "key": "era-tuareg-camp-1993",
+  "kind": "image",
+  "source": "commons",
+  "file": "File:ASC Leiden - van Achterberg Collection - 05 - 53 - Un camp touareg juste à l'extérieur de la ville - Tombouctou, Mali - Novembre-décembre 1993.jpg",
+  "use": "slide3 era photo 1993 (Tuareg camp, after 1990s rebellion)",
+  "width": 6756,
+  "height": 4450,
+  "license": "CC BY-SA 4.0",
+  "author": "Angeline A. van Achterberg",
+  "widths": [
+   640,
+   1280,
+   1920
+  ],
+  "sepia": true
+ },
+ {
+  "key": "era-mbera-1996",
+  "kind": "image",
+  "source": "commons",
+  "file": "File:ASC Leiden - van Achterberg Collection - 1 - 247 - Un groupe de femmes et d'enfants à l'extérieur. Le camp de tente en arrière-plan. Le camp du HCNUR - Mberra, Maurétanie - 9-29 novembre 1996.tif",
+  "use": "slide3 era photo 1996 (M'bera camp, Tuareg refugees)",
+  "width": 6716,
+  "height": 4347,
+  "license": "CC BY-SA 4.0",
+  "author": "Angeline A. van Achterberg",
+  "widths": [
+   640,
+   1280,
+   1920
+  ],
+  "sepia": true
+ },
+ {
+  "key": "mali-soldiers-2012",
+  "kind": "image",
+  "source": "commons",
+  "file": "File:Malian soldiers in Bamako during 2012 coup.jpg",
+  "use": "slide4 2012 coup (soldiers at Kati)",
+  "width": 5184,
+  "height": 3456,
+  "license": "CC BY 2.0",
+  "author": "Magharebia",
+  "widths": [
+   640,
+   1280,
+   1920
+  ]
+ },
+ {
+  "key": "serval-arrival-2013",
+  "kind": "image",
+  "source": "commons",
+  "file": "File:French troops arrive in Mali 130123-F-GO452-629.jpg",
+  "use": "slide6 Operation Serval arrival",
+  "width": 2692,
+  "height": 1791,
+  "license": "Public domain",
+  "author": "U.S. Air Force photo by Senior Airman James Richardson",
+  "widths": [
+   640,
+   1280,
+   1920
+  ]
+ },
+ {
+  "key": "minusma-benin",
+  "kind": "image",
+  "source": "commons",
+  "file": "File:Blue helmets from Benin, Bamako, 30 May 2018.jpg",
+  "use": "slide6 MINUSMA blue helmets",
+  "width": 2000,
+  "height": 1333,
+  "license": "Public domain",
+  "author": "Kassim Traoré (VOA)",
+  "widths": [
+   640,
+   1280,
+   1920
+  ]
+ },
+ {
+  "key": "minusma-last-dutch-patrol",
+  "kind": "image",
+  "source": "commons",
+  "file": "File:Last Dutch patrol MINUSMA-1.jpg",
+  "use": "slide9 MINUSMA drawdown",
+  "width": 5472,
+  "height": 3078,
+  "license": "CC BY-SA 4.0",
+  "author": "Defensie",
+  "widths": [
+   640,
+   1280,
+   1920
+  ]
+ },
+ {
+  "key": "goita-portrait",
+  "kind": "image",
+  "source": "commons",
+  "file": "File:Assimi Goita, August 2021.png",
+  "use": "slide8 Assimi Goïta portrait",
+  "width": 1920,
+  "height": 1080,
+  "license": "Public domain",
+  "author": "VOA (Moctar Barry)",
+  "widths": [
+   480,
+   960
+  ]
+ },
+ {
+  "key": "rally-russian-flags-2021",
+  "kind": "image",
+  "source": "commons",
+  "file": "File:Manifestation de soutien aux militaires, à Bamako après le coup d'état de 2021 - drapeaux russes et maliens.png",
+  "use": "slide9 Russian and Malian flags at rally",
+  "width": 1920,
+  "height": 1080,
+  "license": "Public domain",
+  "author": "VOA Bambara",
+  "widths": [
+   640,
+   1280,
+   1920
+  ]
+ },
+ {
+  "key": "menaka-idps-2023",
+  "kind": "image",
+  "source": "commons",
+  "file": "File:Menaka DSRSG-P Kroslak.jpg",
+  "use": "slide10 / slide11 Ménaka IDPs 2023",
+  "width": 3225,
+  "height": 2419,
+  "license": "CC BY-SA 4.0",
+  "author": "Daniela Kroslak",
+  "widths": [
+   480,
+   960
+  ]
+ },
+ {
+  "key": "bandiagara-cliffs",
+  "kind": "image",
+  "source": "commons",
+  "file": "File:Bandiagara escarpment 2.jpg",
+  "use": "slide7 background (Dogon country)",
+  "width": 3504,
+  "height": 2336,
+  "license": "CC BY-SA 2.0",
+  "author": "Ferdinand Reus from Arnhem, Holland",
+  "widths": [
+   640,
+   1280,
+   1920
+  ]
+ },
+ {
+  "key": "video-dogon-dance",
+  "kind": "video",
+  "source": "commons",
+  "file": "File:Dogon's Ritual Dance.webm",
+  "use": "slide2 background loop (Dogon mask dance, Bandiagara, Mali, Jan 2012)",
+  "width": 1280,
+  "height": 720,
+  "license": "CC BY 3.0",
+  "author": "Alexander Wyatkin",
+  "start": 146,
+  "dur": 5
+ },
+ {
+  "key": "video-dogon-masks",
+  "kind": "video",
+  "source": "commons",
+  "file": "File:La danse des masques Dogons du Mali.webm",
+  "use": "slide12 background loop (Dogon singers and drummers, Mali)",
+  "width": 1920,
+  "height": 1080,
+  "license": "CC BY 4.0",
+  "author": "KONE IF",
+  "start": 37,
+  "dur": 5
+ },
+ {
+  "key": "video-timbuktu-mausoleums",
+  "kind": "video",
+  "source": "commons",
+  "file": "File:Launch of the reconstruction of World Heritage Mausoleums in Timbuktu 2.webm",
+  "use": "slide11 inset: first earthen bricks laid on the destroyed mausoleums, Timbuktu 2014",
+  "width": 640,
+  "height": 360,
+  "license": "CC BY-SA 3.0 igo",
+  "author": "UNESCO",
+  "start": 15,
+  "dur": 4
+ },
+ {
+  "key": "flag-mali",
+  "kind": "flag",
+  "source": "commons",
+  "file": "File:Flag of Mali.svg",
+  "use": "flag Mali",
+  "width": 900,
+  "height": 600,
+  "license": "Public domain",
+  "author": "SKopp"
+ },
+ {
+  "key": "flag-azawad-mnla",
+  "kind": "flag",
+  "source": "commons",
+  "file": "File:Flag of Azawad.svg",
+  "use": "flag Azawad (MNLA)",
+  "width": 1000,
+  "height": 600,
+  "license": "Public domain",
+  "author": "Orionist"
+ },
+ {
+  "key": "flag-france",
+  "kind": "flag",
+  "source": "commons",
+  "file": "File:Flag of France.svg",
+  "use": "flag France",
+  "width": 900,
+  "height": 600,
+  "license": "Public domain",
+  "author": "Original: Unknown Vector: SKopp"
+ },
+ {
+  "key": "flag-un",
+  "kind": "flag",
+  "source": "commons",
+  "file": "File:Flag of the United Nations.svg",
+  "use": "flag UN / MINUSMA",
+  "width": 1200,
+  "height": 800,
+  "license": "Public domain",
+  "author": "Wikimedia Commons contributors (see file history)"
+ },
+ {
+  "key": "flag-eu",
+  "kind": "flag",
+  "source": "commons",
+  "file": "File:Flag of Europe.svg",
+  "use": "flag EU / EUTM",
+  "width": 900,
+  "height": 600,
+  "license": "Public domain",
+  "author": "User:Verdy p, User:-xfi-, User:Paddu, User:Nightstallion, User:Funakoshi, User:Jeltz, User:Dbenbenn, User:Zscout370"
+ },
+ {
+  "key": "flag-poland",
+  "kind": "flag",
+  "source": "commons",
+  "file": "File:Flag of Poland.svg",
+  "use": "flag Poland (PKW EUTM)",
+  "width": 640,
+  "height": 400,
+  "license": "Public domain",
+  "author": "Wikimedia Commons contributors (see file history)"
+ },
+ {
+  "key": "flag-russia",
+  "kind": "flag",
+  "source": "commons",
+  "file": "File:Flag of Russia.svg",
+  "use": "flag Russia",
+  "width": 900,
+  "height": 600,
+  "license": "Public domain",
+  "author": "Peter the Great"
+ },
+ {
+  "key": "flag-burkina-faso",
+  "kind": "flag",
+  "source": "commons",
+  "file": "File:Flag of Burkina Faso.svg",
+  "use": "flag Burkina Faso (AES)",
+  "width": 900,
+  "height": 600,
+  "license": "Public domain",
+  "author": "Drawn by SKopp, rewritten by Gabbe and Андрей Перцев"
+ },
+ {
+  "key": "flag-niger",
+  "kind": "flag",
+  "source": "commons",
+  "file": "File:Flag of Niger.svg",
+  "use": "flag Niger (AES)",
+  "width": 700,
+  "height": 600,
+  "license": "Public domain",
+  "author": "Made by: Philippe Verdy User:verdy_p, see also fr:Utilisateur:verdy_p."
+ },
+ {
+  "key": "flag-chad",
+  "kind": "flag",
+  "source": "commons",
+  "file": "File:Flag of Chad.svg",
+  "use": "flag Chad",
+  "width": 900,
+  "height": 600,
+  "license": "Public domain",
+  "author": "SKopp & others (see upload log)"
+ },
+ {
+  "key": "flag-jihadist-black",
+  "kind": "flag",
+  "source": "commons",
+  "file": "File:Flag of Jihad.svg",
+  "use": "black shahada banner used by Ansar Dine and other groups (historical documentation, never cut)",
+  "width": 609,
+  "height": 369,
+  "license": "Public domain",
+  "author": "domena publiczna",
+  "gray": true
+ }
+]

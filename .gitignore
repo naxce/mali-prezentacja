@@ -1,0 +1,11 @@
+docs/
+node_modules/
+dist/
+build/
+.cache/
+.env
+data/questions.json
+test-results/
+playwright-report/
+DEPLOY.md
+package-lock.json

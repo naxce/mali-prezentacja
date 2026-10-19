@@ -1,0 +1,30 @@
+.s-intervention { --slide-bg: linear-gradient(135deg, #10192b 0%, #0d1220 55%, var(--night) 100%); }
+.s6 { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); grid-column-gap: clamp(20px, 3vw, 64px); align-items: center; }
+.s6-title { color: var(--text); }
+.s6-year { color: var(--indigo-hi); font-size: var(--fs-h3); }
+.s6-list { margin-top: 2.6vh; display: grid; grid-row-gap: 1.5vh; }
+.s6-list li, .s6-pl { display: grid; grid-template-columns: clamp(30px, 2.6vw, 52px) minmax(0, 1fr); grid-column-gap: 14px; align-items: start; }
+.s6-list img, .s6-pl img { width: 100%; height: auto; margin-top: 0.25em; border: 1px solid var(--line); }
+.s6-list p, .s6-pl p { font-size: clamp(13px, 0.5vw + 0.6vh, 21px); line-height: 1.45; color: var(--muted); }
+.s6-list b, .s6-pl b { color: var(--text); font-weight: 650; }
+.s6-pl { margin-top: 2.2vh; padding: 1.4vh 1.2vw; background: rgba(220, 20, 60, 0.1); border-left: 4px solid #dc143c; }
+.s6-right { position: relative; display: grid; grid-template-rows: auto auto; }
+.s6-map { width: 100%; height: auto; max-height: 52vh; }
+.s6-map path { fill: #1a2233; stroke: rgba(239, 227, 204, 0.18); stroke-width: 1; }
+.s6-map path.mli { fill: #2a3550; stroke: var(--sand); stroke-width: 1.6; }
+.s6-mk circle { fill: var(--indigo-hi); stroke: #fff; stroke-width: 2; }
+.s6-mk.mk-fr circle { fill: #3f6fe0; }
+.s6-mk.mk-un circle { fill: #4aa3df; }
+.s6-mk.mk-td circle, .s6-mk.mk-afisma circle { fill: var(--ochre); }
+.s6-mk text, .s6-pin text { fill: var(--text); font-family: var(--f-mono); font-size: 20px; paint-order: stroke; stroke: rgba(11, 15, 23, 0.9); stroke-width: 4px; }
+.s6-pin circle { fill: #dc143c; stroke: #fff; stroke-width: 2; }
+.s6-counter { display: flex; align-items: center; margin-top: 1vh; }
+.s6-counter .stat { color: #4aa3df; font-size: calc(var(--fs-stat) * 0.9); }
+.s6-counter p { margin-left: 16px; max-width: 30ch; }
+.s6-photos { display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px; margin-top: 1.6vh; }
+.s6-photos picture, .s6-photos img { width: 100%; height: clamp(70px, 14vh, 170px); object-fit: cover; }
+@media (max-width: 900px) { .s6 { grid-template-columns: 1fr; grid-row-gap: 3vh; } }
+.s6-jet { color: #f2ead8; opacity: 0; }
+.s6-map .s6-jet path { fill: currentColor; stroke: rgba(11, 15, 23, 0.6); stroke-width: 8; }
+.s6-map .s6-trail { fill: none; stroke: rgba(242, 234, 216, 0.7); stroke-width: 3; stroke-linecap: round; }
+.s6-boom { fill: none; stroke: #3f6fe0; stroke-width: 4; opacity: 0; transform-box: fill-box; transform-origin: 50% 50%; }

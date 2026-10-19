@@ -1,0 +1,35 @@
+.s-mali { --slide-bg: radial-gradient(80% 90% at 25% 50%, #2a2014 0%, #15140f 55%, var(--night) 100%); }
+.s2 { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); grid-column-gap: clamp(20px, 3vw, 64px); align-items: center; }
+.s2-mapbox { position: relative; height: 100%; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+.s2-map { width: 100%; height: auto; max-height: 86vh; }
+.s2-cam { transform-origin: 0 0; }
+.s2-africa path { fill: #2b2a24; stroke: rgba(239, 227, 204, 0.28); stroke-width: 0.6; }
+.s2-africa path.mli { fill: #3b3527; }
+.s2-sahel { fill: rgba(227, 164, 58, 0.16); }
+.s2-flag .b1 { fill: var(--mali-green); }
+.s2-flag .b2 { fill: var(--mali-gold); }
+.s2-flag .b3 { fill: var(--mali-red); }
+.s2-flag rect { transform-box: fill-box; }
+.s2-outline { fill: none; stroke: var(--text); stroke-width: 1.4; stroke-linejoin: round; }
+.s2-capital { fill: var(--text); stroke: var(--night); stroke-width: 1; transform-box: fill-box; transform-origin: 50% 50%; }
+.s2-label { fill: var(--text); font-family: var(--f-mono); font-size: 7.5px; font-weight: 500; paint-order: stroke; stroke: rgba(11, 15, 23, 0.8); stroke-width: 2px; }
+.s2-sahel-label { fill: var(--ochre); font-family: var(--f-mono); font-size: 7px; letter-spacing: 0.3em; }
+.s2-title { color: var(--text); }
+.s2-stats { margin: 3.2vh 0 0; display: grid; grid-row-gap: 2vh; }
+.s2-stats > div { display: grid; grid-template-columns: minmax(0, auto) minmax(0, 1fr); grid-column-gap: 18px; align-items: baseline; }
+.s2-stats dt { font-size: calc(var(--fs-stat) * 0.62); color: var(--ochre); white-space: nowrap; }
+.s2-stats dt small { font-size: 0.42em; color: var(--muted); font-stretch: 100%; }
+.s2-stats dd { margin: 0; color: var(--muted); font-size: var(--fs-body); line-height: 1.35; }
+.s2-tags { display: flex; flex-wrap: wrap; margin-top: 3vh; }
+.s2-tags li { margin: 0 8px 8px 0; padding: 0.3em 0.7em; border: 1px solid var(--line-strong); font-family: var(--f-mono); font-size: var(--fs-small); color: var(--sand); }
+.s2-econ { margin-top: 2.4vh; }
+@media (max-width: 900px) {
+  .s2 { grid-template-columns: 1fr; grid-row-gap: 3vh; }
+  .s2-mapbox { height: auto; }
+  .s2-map { max-height: 46vh; }
+}
+.s2-bg { opacity: 1; }
+.s2-bg video { opacity: 0.22; }
+.s2-scrim { background: linear-gradient(90deg, rgba(21, 20, 15, 0.7) 0%, rgba(21, 20, 15, 0.55) 50%, rgba(11, 15, 23, 0.85) 100%); }
+.s2-scan { opacity: 0; }
+.s2-sonar { fill: none; stroke: var(--ochre); stroke-width: 0.9; opacity: 0; transform-box: fill-box; transform-origin: 50% 50%; }
