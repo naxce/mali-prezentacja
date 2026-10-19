@@ -8,4 +8,9 @@ data/questions.json
 test-results/
 playwright-report/
 DEPLOY.md
-package-lock.json
+.env.*
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+*.tsbuildinfo
